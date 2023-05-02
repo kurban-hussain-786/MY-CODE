@@ -2,7 +2,7 @@ import pygame,sys,pygame.color,random
 pygame.init()
 black=(0,0,0)
 screen=pygame.display.set_mode((500,500))
-
+# rect collision
 black=(182,130,0)
 hero=pygame.image.load("C:\\Users\\Lenovo\\Desktop\\python program\\pics\\goku_stand.png")
 hero=pygame.transform.scale(hero,(100,100))
